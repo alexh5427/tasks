@@ -27,7 +27,9 @@ function App() {
 
                 <Button
                     className="btn btn-primary"
-                    onClick={() => console.log("Hello World!")}
+                    onClick={() => {
+                        console.log("Hello World!");
+                    }}
                 >
                     Log Hello World
                 </Button>
