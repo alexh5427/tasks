@@ -1,4 +1,3 @@
-
 import React from "react";
 import "./App.css";
 import { Button, Container, Row, Col } from "react-bootstrap";
@@ -14,13 +13,9 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-
                 <h1>UM COS420 with React Hooks and TypeScript</h1>
 
-                <img
-                    src="https://via.placeholder.com/150"
-                    alt="Placeholder"
-                />
+                <img src="https://via.placeholder.com/150" alt="Placeholder" />
 
                 <ul>
                     <li>React</li>
@@ -44,7 +39,7 @@ function App() {
                                 style={{
                                     width: "100px",
                                     height: "100px",
-                                    backgroundColor: "red"
+                                    backgroundColor: "red",
                                 }}
                             ></div>
                         </Col>
@@ -54,16 +49,15 @@ function App() {
                                 style={{
                                     width: "100px",
                                     height: "100px",
-                                    backgroundColor: "red"
+                                    backgroundColor: "red",
                                 }}
                             ></div>
                         </Col>
                     </Row>
                 </Container>
-
             </header>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
@@ -81,4 +75,3 @@ function App() {
 }
 
 export default App;
-
